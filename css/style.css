@@ -1,0 +1,86 @@
+
+body{
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: .9375rem;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.container-card{
+  align-self: center;
+  text-align: center;
+  background-color: hsl(244, 38%, 16%);
+  width: 330px;
+  overflow: hidden;
+  border-radius: .5rem;
+  margin: 1rem auto;
+  min-height: 780px;
+}
+
+.filter>img{
+ display: block;
+ width: 100%;
+ filter: url(#svgTint);
+}
+.filter>svg{
+ width: 0;
+ height: 0;
+}
+
+.main>h1{
+  font-size: 1.77rem;
+  font-weight: 700;
+  font-family: inherit;
+  line-height: 1.2;
+  letter-spacing: .05rem;
+  padding: 0 1.5rem;
+  margin: 1.4rem auto 1rem;
+}
+
+#insights{
+  color: hsl(277, 64%, 61%);
+}
+
+.discription{
+  font-size: inherit;
+  font-family: inherit;
+  line-height: 1.7;
+  letter-spacing: .02rem;
+  margin: 1rem auto 2.31rem;
+  padding: 0 2rem;
+
+}
+.stats-box{
+  line-height: 1.65;
+  margin: 1.4rem auto;
+}
+.stats-box>h2{
+  font-size: 1.45rem;
+  font-weight: 700;
+  font-family: inherit;
+
+}
+
+.stats-box>p{
+  font-size: .73rem;
+  font-weight: lighter;
+  font-family: inherit;
+  letter-spacing: .090rem;
+}
+
+
+.attribution {
+  font-size: .6875rem;
+  margin: 1rem auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
